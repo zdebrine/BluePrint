@@ -1,0 +1,4 @@
+#Fri Sep 06 11:32:28 IST 2019
+base.0=/Users/manukaprabath/Projects/OnGoing/Cubic/app/build/intermediates/transforms/dexMerger/debug/10
+path.0=classes.dex
+renamed.0=classes.dex

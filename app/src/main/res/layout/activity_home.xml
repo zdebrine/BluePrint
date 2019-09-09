@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    tools:context=".screens.Home">
+
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+    <Button
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:text="Logout"
+        android:onClick="onLogoutPressed"
+        android:background="@color/whiteTextColor"
+        android:textColor="@color/colorPrimary"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="12">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:gravity="center"
+          android:background="@drawable/login_shape"
+          android:backgroundTint="#37bbec"
+          android:layout_weight="6">
+
+
+        <com.cunoraz.gifview.library.GifView
+            android:id="@+id/gif1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            custom:gif="@drawable/beaconrings" />
+
+      </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="@color/whiteTextColor"
+          android:textSize="30sp"
+          android:layout_gravity="center"
+          android:text="@string/app_name"
+          android:layout_marginTop="40dp"/>
+
+
+      <android.support.v7.widget.CardView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          app:cardCornerRadius="5dp"
+          android:elevation="5dp"
+          android:layout_gravity="center"
+          android:background="@color/whiteCardColor"
+          android:layout_margin="10dp"
+          >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+          <TextView
+              android:layout_gravity="center"
+              android:layout_height="wrap_content"
+              android:layout_width="wrap_content"
+              android:text="Beacon Monitor"
+              android:textSize="22sp"
+              android:textColor="@color/primaryTextColor"
+              android:layout_marginTop="20dp"/>
+
+          <TextView
+              android:visibility="gone"
+              android:textAlignment="center"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/home_name_text"
+              android:maxLines="1"
+              android:textSize="15sp"
+              android:backgroundTint="@color/primaryTextColor"
+              />
+
+          <android.support.design.widget.TextInputLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:id="@+id/loginEmailLayout"
+              android:layout_marginTop="20dp">
+            <EditText
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/home_name"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:textSize="15sp"
+                android:backgroundTint="@color/primaryTextColor"
+                android:hint="Name"/>
+          </android.support.design.widget.TextInputLayout>
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/beacon_status"
+                android:layout_width="match_parent"
+                android:text="---"
+                android:textSize="18dp"
+                android:textAlignment="center"
+                android:layout_height="wrap_content" />
+          </LinearLayout>
+
+          <Button
+              android:visibility="gone"
+              android:onClick="onSavePressed"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/whiteTextColor"
+              android:id="@+id/home_submitBtn"
+              android:background="@drawable/login_button"
+              android:text="Save "
+              android:layout_gravity="center_horizontal"
+              android:layout_marginTop="20dp"/>
+
+        </LinearLayout>
+
+
+      </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+
+  </RelativeLayout>
+
+</LinearLayout>

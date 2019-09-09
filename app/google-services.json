@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "207336030419",
+    "firebase_url": "https://blueprint-e5826.firebaseio.com",
+    "project_id": "blueprint-e5826",
+    "storage_bucket": "blueprint-e5826.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207336030419:android:9967aca60e69f31f655426",
+        "android_client_info": {
+          "package_name": "com.example.cubic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "207336030419-8imdndoeikh15ubbf06a81g9nqqhh1n2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cubic",
+            "certificate_hash": "0bc1f3640d7b209c1f0b8c83bba636aa75ab0a06"
+          }
+        },
+        {
+          "client_id": "207336030419-hdh4qlmt5s33ovba9jfcrbjb4gl75gc4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4s7K-YF7Vtw35uRpimOKOqTxoUHBJs6I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "207336030419-hdh4qlmt5s33ovba9jfcrbjb4gl75gc4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/manukaprabath/Projects/OnGoing/Cubic/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rCA/values-en-rCA.xml",
+            "outputFile": "/Users/jonny/code/BluePrint-Android-App/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rCA/values-en-rCA.xml",
             "map": [
                 {
-                    "source": "/Users/manukaprabath/.gradle/caches/transforms-2/files-2.1/b2f216625252aab4afcbdb0bc1875cfc/res/values-en-rCA/values-en-rCA.xml",
+                    "source": "/Users/jonny/.gradle/caches/transforms-2/files-2.1/0646b304ab944409d6d48a8d985deee7/res/values-en-rCA/values-en-rCA.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/manukaprabath/.gradle/caches/transforms-2/files-2.1/eacf4e04d60610f1a5fdfb9e295aaebe/res/values-en-rCA/values-en-rCA.xml",
+                    "source": "/Users/jonny/.gradle/caches/transforms-2/files-2.1/3ddb236e15d3aa9e55fe34f48661c128/res/values-en-rCA/values-en-rCA.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

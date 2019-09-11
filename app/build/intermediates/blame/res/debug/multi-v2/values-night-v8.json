@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/manukaprabath/Projects/OnGoing/Cubic/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "/Users/jonny/code/BluePrint-Android-App/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/manukaprabath/.gradle/caches/transforms-2/files-2.1/b2f216625252aab4afcbdb0bc1875cfc/res/values-night-v8/values-night-v8.xml",
+                    "source": "/Users/jonny/.gradle/caches/transforms-2/files-2.1/0646b304ab944409d6d48a8d985deee7/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",

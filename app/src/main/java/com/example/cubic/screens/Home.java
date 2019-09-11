@@ -7,10 +7,11 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Build;
+import android.os.Bundle;
 import android.os.RemoteException;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -219,6 +220,8 @@ public class Home extends AppCompatActivity implements BeaconConsumer {
                 //Iterate All Captured Beacons
                 for (Beacon b:collection){
                     String uuid = String.valueOf(b.getId1());
+
+                    Log.e("Cubic", uuid);
 
                     //Filter Accepted Beacons
                     if(ArrayUtils.contains(com.example.cubic.constants.Beacon.BEACONS_IDS, uuid)) {

@@ -2,8 +2,8 @@ package com.example.cubic.constants;
 
 public class Beacon {
     public static String [] BEACONS_IDS = {
-            "0x222f22e44f1aae5be1fb",
-            "0x2516958df47fec53be2e"
+            "0xd841eb0113842bfeb63e",
+            "0xd9600577451c54cb70b2"
     };
     public static long BEACON_SCANNER_INTERVAL = 1000; // Scan interval to get update from surrounding beacons
     public static int BEACON_EXPIRATION_TIME = 10; // If no update from beacon within X seconds, Exit will fire

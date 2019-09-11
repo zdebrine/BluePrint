@@ -1,11 +1,8 @@
 package com.example.cubic.controllers;
 
 import android.support.annotation.NonNull;
-import android.util.Log;
 
 import com.example.cubic.constants.Database;
-import com.google.android.gms.tasks.OnFailureListener;
-import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -76,5 +73,7 @@ public class UserController {
     public interface UserDataCallBack {
         void onSuccess(String name);
         void onFailure(String err);
+
     }
+
 }

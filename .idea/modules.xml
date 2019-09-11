@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../Cubic/Cubic.iml" filepath="$PROJECT_DIR$/../Cubic/Cubic.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../Cubic/app/app.iml" filepath="$PROJECT_DIR$/../Cubic/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BluePrint-Android-App.iml" filepath="$PROJECT_DIR$/BluePrint-Android-App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
 </project>

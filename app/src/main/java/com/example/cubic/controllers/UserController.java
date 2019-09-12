@@ -66,6 +66,7 @@ public class UserController {
         eventMap.put("beacon", beaconId);
         eventMap.put("moment", dateFormat.format(eventDate));
         userRef.child(authController.getUid()).child("events").push().setValue(eventMap);
+
     }
 
 

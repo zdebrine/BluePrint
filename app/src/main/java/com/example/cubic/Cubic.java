@@ -13,7 +13,8 @@ public class Cubic extends Application {
     public void onCreate() {
         super.onCreate();
 
-        Context context = this;
+        Context contex =this;
+
         // Create an analytics client with the given context and Segment write key.
         Analytics analytics = new Analytics.Builder(this, "at6RBjcntJqqcgzqjjZfoeUNY3APzI93")
                 // Enable this to record certain application events automatically!
@@ -24,7 +25,6 @@ public class Cubic extends Application {
 
 // Set the initialized instance as a globally accessible instance.
         Analytics.setSingletonInstance(analytics);
-
 
     }
 

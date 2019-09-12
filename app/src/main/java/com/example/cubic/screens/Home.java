@@ -22,6 +22,8 @@ import com.example.cubic.controllers.AuthController;
 import com.example.cubic.controllers.BeaconController;
 import com.example.cubic.controllers.UserController;
 import com.google.android.gms.common.util.ArrayUtils;
+import com.segment.analytics.Analytics;
+import com.segment.analytics.Traits;
 
 import org.altbeacon.beacon.Beacon;
 import org.altbeacon.beacon.BeaconConsumer;
@@ -90,6 +92,8 @@ public class Home extends AppCompatActivity implements BeaconConsumer {
                     mNameText.setText("Hey, "+ name);
                     saveBtn.setVisibility(View.GONE);
                 }
+                //Send identity to Segment
+                Analytics.with(getApplicationContext()).identify(new Traits().putName(name));
             }
 
             @Override
@@ -192,6 +196,9 @@ public class Home extends AppCompatActivity implements BeaconConsumer {
 
                 //Write Event To Database
                 userController.writeUserEvent(BEACON_REGION_EXIT_EVENT, beaconId);
+
+                //Send event to Segment
+                Analytics.with(getApplicationContext()).track("Exit Beacon Region "+ beaconId);
             }
 
             @Override
@@ -200,6 +207,9 @@ public class Home extends AppCompatActivity implements BeaconConsumer {
 
                 //Write Event To Database
                 userController.writeUserEvent(BEACON_REGION_ENTER_EVENT, beaconId);
+
+                //Send event to Segment
+                Analytics.with(getApplicationContext()).track("Entered Beacon Region "+ beaconId);
             }
         });
 
